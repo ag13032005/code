@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback from customer</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        #main {
+            color: white;
+            background-color: aqua;
+            height: 1000px;
+        }
+
+        #head {
+            background-color: black;
+            position: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="head">
+            <h1>Feedback Form</h1>
+        </div>
+        <div id="from">
+            <form action="index.html" method="post">
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <textarea name="text" id="text" cols="25" rows="10" placeholder="Enter your feedback"
+                    required></textarea>
+                <input type="submit" value="send">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

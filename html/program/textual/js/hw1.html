@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>calculator</title>
+    <script type="text/javascript">
+        function sr(){
+            var a = parseInt(form.t.value)
+            alert("the square root of "+a+" is "+Math.sqrt(a))
+        }
+        function cr(){
+            var a = parseInt(form.t.value)
+            alert("the cube root of "+a+" is "+Math.cbrt(a))
+        }
+    </script>
+</head>
+<body>
+    <form name="form" method="post">
+        <input type="text" name="t"><br><br>
+        <input type="button" value="square root" onclick="sr()">
+        <input type="button" value="cube root" onclick="cr()">
+    </form>
+</body>
+</html>
